@@ -1,19 +1,17 @@
 
 import java.util.Scanner;
 
-public class EggBasket2
-{
-    public static void main(String[] args)
-    {
+public class EggBasket2 {
+    public static void main(String[] args) {
         int numberOfBaskets;
         int eggsPerBasket;
         int totalEggs;
 
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter the number of eggs in each basket:");
-        eggsPerBasket = keyboard.nextInt( );
+        eggsPerBasket = keyboard.nextInt();
         System.out.println("Enter the number of baskets:");
-        numberOfBaskets = keyboard.nextInt( );
+        numberOfBaskets = keyboard.nextInt();
 
         totalEggs = numberOfBaskets * eggsPerBasket;
 
@@ -31,7 +29,7 @@ public class EggBasket2
         System.out.println(eggsPerBasket + " eggs per basket and");
         System.out.println(numberOfBaskets + " baskets.");
         System.out.println("The new total number of eggs is "
-                                                      + totalEggs);
+                + totalEggs);
     }
 }
 
